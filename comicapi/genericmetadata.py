@@ -99,6 +99,7 @@ class GenericMetadata:
 
     alternate_series: str | None = None
     alternate_number: str | None = None
+    story_arc_number: str | None = None
     alternate_count: int | None = None
     imprint: str | None = None
     notes: str | None = None
