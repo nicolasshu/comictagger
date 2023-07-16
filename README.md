@@ -44,7 +44,7 @@ Just unzip the archive in any folder and run, no additional installation steps a
 A pip package is provided, you can install it with:
 
 ```
- $ pip3 install comictagger[GUI]
+ $ pip3 install 'comictagger[GUI]'
 ```
 
 There are optional dependencies. You can install the optional dependencies by specifying one or more of them in braces e.g. `comictagger[CBR,GUI]`
@@ -66,7 +66,7 @@ choco install comictagger
 
  1. Ensure you have python 3.9 installed
  2. Clone this repository `git clone https://github.com/comictagger/comictagger.git`
- 7. `pip3 install .[ICU]` or `pip3 install .[GUI,ICU]`
+ 7. `pip3 install '.[ICU]'` or `pip3 install '.[GUI,ICU]'`
 
 
 ## Contributors
